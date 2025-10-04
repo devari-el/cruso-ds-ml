@@ -43,8 +43,48 @@ Durante a trilha, os conceitos estatísticos são aplicados em problemas de **Ma
 
 ---
 
+## 🚀 Como clonar e rodar este repositório
+
+Para clonar e utilizar este projeto localmente, siga os passos abaixo:
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/devari-el/curso-ds-ml
+cd curso-ds-ml
+
+# 2. Crie e ative um ambiente virtual
+python -m venv venv
+```
+
+### 🔑 Ativar o ambiente virtual
+
+- **Windows (PowerShell):**
+  ```powershell
+  .\venv\Scripts\activate
+  ```
+
+- **Windows (CMD):**
+  ```cmd
+  venv\Scripts\activate.bat
+  ```
+
+- **Linux / macOS (bash/zsh):**
+  ```bash
+  source venv/bin/activate
+  ```
+
+```bash
+# 3. Instale as dependências
+pip install -r requirements.txt
+
+# 4. Inicie o JupyterLab
+jupyter lab
+```
+
+Depois disso, você já estará pronto para explorar os notebooks e acompanhar a trilha de estudos 📘.  
+
+---
+
 📘 **Status:** Em andamento  
 📝 **Propósito:** Registro e prática dos aprendizados  
 💡 **Nota pessoal:** Este repositório é um espaço de estudo, erros e experimentações fazem parte do processo 🚀  
-
----
